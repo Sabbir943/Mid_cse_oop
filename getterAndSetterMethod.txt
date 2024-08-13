@@ -1,0 +1,15 @@
+Basic:Getter and setter methods are commonly used to access and modify private
+member variables of the class allowing for the controlled access and modification
+of data.
+
+//Getter methods:
+DataType getAge()
+{
+    return age;
+}
+
+//setter methods:
+void setAge(DataType newValue)
+{
+    age = newValue;
+}
